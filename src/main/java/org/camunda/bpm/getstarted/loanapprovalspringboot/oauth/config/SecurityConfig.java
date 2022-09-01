@@ -1,9 +1,9 @@
 package org.camunda.bpm.getstarted.loanapprovalspringboot.oauth.config;
 
-import com.unionman.springbootsecurityauth2.domain.CustomUserDetail;
-import com.unionman.springbootsecurityauth2.entity.User;
-import com.unionman.springbootsecurityauth2.repository.UserRepository;
 import lombok.extern.slf4j.Slf4j;
+import org.camunda.bpm.getstarted.loanapprovalspringboot.oauth.domain.CustomUserDetail;
+import org.camunda.bpm.getstarted.loanapprovalspringboot.oauth.entity.User;
+import org.camunda.bpm.getstarted.loanapprovalspringboot.oauth.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -60,3 +60,4 @@ camunda.bpm:
       allowed-origins: "*"
 server:
   port: 8080
+  host: localhost
